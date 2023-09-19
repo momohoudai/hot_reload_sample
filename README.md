@@ -1,4 +1,4 @@
-# Sample code to demostrate hot reloading
+# Sample code to demostrate hot reloading in C/C++
 
 Read `main.c` for information.
 Example only works in Linux (for now). 
