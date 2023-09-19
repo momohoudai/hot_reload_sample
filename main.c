@@ -1,4 +1,22 @@
 //
+// TLDR VERSION
+//   - Install gcc.
+//   - Compile code to hot reload:
+//     $ gcc -shared hot.c -o -hot.so
+//
+//   - Compile code to run the program:
+//     $ gcc main.c -o main.exe
+//   
+//   - Run the program and watch it print "HOT" repeatedly:
+//     $ ./main.exe
+//
+//   - Open another terminal, open "hot.c" and change "HOT" to "COLD"
+//   - Compile code to hot reload again:
+//     $ gcc -shared hot.c -o -hot.so
+//   
+//   - ????????????????
+//   - PROFIT! (Watch the program magically start to print "COLD" repeatedly!)
+//
 // DESCRIPTION
 //   This is just an example code to showcase how hot-reloading works.
 //   There is a surprising lack on information on how to implement it.
